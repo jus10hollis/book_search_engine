@@ -19,7 +19,7 @@ const typeDefs = gql`
     removeBook(bookId: ID): User
   }
 
-  input User {
+  type User {
     _id: ID!
     username: String
     email: String
